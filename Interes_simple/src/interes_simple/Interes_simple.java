@@ -37,32 +37,32 @@ public class Interes_simple {
         
         System.out.println("Ingresa los anios que te dieronde plazo para pagar el prestamo");
         ANIODP = Generado.nextInt();
-        System.out.println("===================================================================");
-        System.out.println("===================================================================");
-        System.out.println("===================================================================");
-        System.out.println("                        ||INTERES SIMPLE||");
-        System.out.println("===================================================================");
+        System.out.println("=====================================================================");
+        System.out.println("=====================================================================");
+        System.out.println("=====================================================================");
+        System.out.println("|||||||||||||||||||||||||||INTERES SIMPLE||||||||||||||||||||||||||||");
+        System.out.println("=====================================================================");
         
         cp =CP;
-        System.out.printf("\n Capital inicial:  -------------------------  %.2f $",cp);
+        System.out.printf("\n Capital inicial:  ---------------------------  %.2f $",cp);
         System.out.println();
-        System.out.println("===================================================================");
+        System.out.println("=====================================================================");
         tap = ITA;
-        System.out.printf("\n Interes del prestamo:  --------------------  %.0f Porcientos",tap);
+        System.out.printf("\n Interes del prestamo:  ----------------------  %.0f Porcientos",tap);
         System.out.println();
-        System.out.println("===================================================================");
+        System.out.println("=====================================================================");
         adp = ANIODP;
-        System.out.printf("\n Anios del prestamo:  ----------------------  %.0f Anios",adp);
+        System.out.printf("\n Anios del prestamo:  ------------------------  %.0f Anios",adp);
         System.out.println();
-        System.out.println("===================================================================");
+        System.out.println("=====================================================================");
         IGEN = (CP * ITA * ANIODP)/100;
-        System.out.printf("\n El interes total generado es de:  ---------  %.2f $",IGEN);
+        System.out.printf("\n El interes total generado es de:  -----------  %.2f $",IGEN);
         System.out.println();
-        System.out.println("===================================================================");
+        System.out.println("=====================================================================");
         tp = CP + IGEN;
-        System.out.printf("\n El total a pagar es de:  ------------------  %.2f $",tp);
+        System.out.printf("\n El total a pagar es de:  --------------------  %.2f $",tp);
         System.out.println();
-        System.out.println("===================================================================");
+        System.out.println("=====================================================================");
 
 
 
